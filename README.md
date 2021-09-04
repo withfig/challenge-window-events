@@ -1,3 +1,5 @@
+![windows.png](./assets/windows-with-white-bg.png)
+
 # Window Events & the Accessibility API
 
 Fig relies on quirky macOS APIs to enable seamless integrations with our users' existing terminals. 
@@ -56,7 +58,7 @@ We will evalute your project based on:
 2. **Code quality and design**: Does the public facing API feel like idiomatic Swift? 
 3. **Research and documentation**: How well are engineering decisions justified? What options were explored?
 
-![windows.png](./assets/windows.png)
+
 
 ## Tips:
 
