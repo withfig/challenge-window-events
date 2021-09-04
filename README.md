@@ -1,4 +1,4 @@
-### Window Events & the Accessibility API
+## Window Events & the Accessibility API
 
 Fig relies on quirky macOS APIs to enable seamless integrations with our users' existing terminals. 
 
@@ -6,7 +6,7 @@ Fig relies on quirky macOS APIs to enable seamless integrations with our users' 
 
 Your task is to use the *Accessibility API* to track which <u>window</u> currently has focus and broadcast an event to a separate process whenever the focused window changes. 
 
-#### Overview
+### Overview
 
 1. **Use the Accessibility API** to report metadata about the currently focused window and determine when the focus shifts to either a different window within the same application or a different application entirely
 
@@ -40,7 +40,7 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
 
 
 
-#### Deliverables
+### Deliverables
 
 - README.md
 - An Xcode project
@@ -50,7 +50,7 @@ You may use whatever packages and libraries you'd like to achieve the final resu
 
 If you are stuck on something, please reach out! My guess is the first part of the project will be the most challenging.
 
-#### Rubric
+### Rubric
 
 We will evalute your project based on:
 
@@ -60,7 +60,7 @@ We will evalute your project based on:
 
 ---
 
-#### Tips:
+### Tips:
 
 This StackOverflow [answer](https://stackoverflow.com/questions/7422666/uniquely-identify-active-window-on-os-x/7423297#7423297) is a great springboard.
 
