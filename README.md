@@ -19,6 +19,12 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
    - Frame (`NSRect`)
    - WindowId (`CGWindowID` or another stable identifier)
 
+   **Edge cases to be aware of:**
+
+   - Which window is focused when Spotlight, Alfred or Raycast are active?
+   - Which window is focused when a menu bar item is clicked?
+   - Which window is focused when a user swipes between full screen apps/desktops/spaces?
+
    
 
 2. **Design a public API** in Swift for accessing window events and metadata that wraps the accessibility API and makes it more pleasant to work with
@@ -36,7 +42,7 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
    - Implement a separate executable in either C, C++, Go or Rust.
      - When run, the program should listen for updates from the macOS app and print out the new window metadata whenever the focused window changes
 
-4. **Document your research and design choices** as you go in a README.md file
+4. **Document your research and design choices** as you go in a README.md file. Please discuss your design decisions, how you handled (or decided not to handle) various edge cases, and what would you would do if you had more time.
 
 
 
@@ -48,7 +54,7 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
 
 You may use whatever packages and libraries you'd like to achieve the final result.
 
-If you are stuck on something, please reach out! My guess is the first part of the project will be the most challenging.
+If you are stuck on something, *please reach out*! My guess is the first part of the project will be the most challenging. If you are getting stuck here, get in touch!
 
 ## Rubric
 
