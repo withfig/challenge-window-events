@@ -18,8 +18,9 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
    - Window Level (`CGWindowLevel` / `NSWindowLevel` / `Int`)
    - Frame (`NSRect`)
    - WindowId (`CGWindowID` or another stable identifier)
+     - Check out the [Tips](#Tips) sections for additional commentary on determining the window ID as it is *not* publicly exposed through the Accessibility API!
 
-   **Edge cases to be aware of:**
+   Edge cases to be aware of:
 
    - Which window is focused when Spotlight, Alfred or Raycast are active?
    - Which window is focused when a menu bar item is clicked?
