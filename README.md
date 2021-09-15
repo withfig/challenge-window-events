@@ -8,7 +8,7 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
 
 ## Overview
 
-1. **Use the Accessibility API** to report metadata about the currently focused window and determine when the focus shifts to either a different window within the same application or a different application entirely
+1. **Use the Accessibility API** to report metadata about the *currently focused window* and *determine when the focus shifts* to either a different window within the same application or a different application entirely
 
    
 
@@ -30,7 +30,7 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
 
 2. **Design a public API** in Swift for accessing window events and metadata that wraps the accessibility API and makes it more pleasant to work with
 
-   - Implement a mechanism for subscribing for updates to the currently focused window
+   - Implement a mechanism for *subscribing for updates* to the currently focused window. eg. whenever a new window gains focus, 
 
    - Implement a property that contains a reference to the current window
 
@@ -38,10 +38,10 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
 
 3. **Broadcast window updates** to a separate process
 
-   - Implement some form of IPC in the macOS app
+   - Implement some form of interprocess communication (IPC) in the macOS app
 
    - Implement a separate executable in either C, C++, Go or Rust.
-     - When run, the program should listen for updates from the macOS app and print out the new window metadata whenever the focused window changes
+     - When run, the program should *listen for updates* from the macOS app and print out the new window metadata whenever the focused window changes, until the CLI tool is quit by the user.
 
 4. **Document your research and design choices** as you go in a README.md file. Please discuss your design decisions, how you handled (or decided not to handle) various edge cases, and what would you would do if you had more time.
 
