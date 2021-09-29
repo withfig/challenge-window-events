@@ -49,13 +49,15 @@ Your task is to use the *Accessibility API* to track which <u>window</u> current
 
 ## Deliverables
 
+When you're ready to submit, please create a zip file of the below and upload it to the following form: https://airtable.com/shrFwTaQFMqvzKYLX
+
 - README.md
 - An Xcode project
 - Source for the 'listener' executable 
 
 You may use whatever packages and libraries you'd like to achieve the final result.
 
-If you are stuck on something, *please reach out*! My guess is the first part of the project will be the most challenging. If you are getting stuck here, get in touch!
+If you are stuck on something, *please reach out* to brendan@fig.io, matt@fig.io, and sean@fig.io! You get no points for guessing. We want you to succeed. Our guess is the first part of the project will be the most challenging. Again, if you are stuck, please get in touch!
 
 ## Rubric
 
